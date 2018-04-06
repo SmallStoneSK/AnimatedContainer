@@ -1,23 +1,28 @@
 {
-  "name": "animatedContainer",
-  "version": "0.0.1",
-  "private": true,
+  "name": "react-native-animated-container",
+  "version": "1.0.0",
+  "description": "A container component for creating PPT-like animations in react-native",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "react": "^16.3.0-alpha.1",
-    "react-native": "0.54.4",
-    "react-navigation": "^1.5.9"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmallStoneSK/AnimatedContainer.git"
   },
-  "devDependencies": {
-    "babel-jest": "22.4.3",
-    "babel-preset-react-native": "4.0.0",
-    "jest": "22.4.3",
-    "react-test-renderer": "^16.3.0-alpha.1"
+  "keywords": [
+    "react-native",
+    "animation",
+    "animated"
+  ],
+  "author": "SmallStoneSK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SmallStoneSK/AnimatedContainer/issues"
   },
-  "jest": {
-    "preset": "react-native"
-  }
+  "homepage": "https://github.com/SmallStoneSK/AnimatedContainer#readme",
+  "dependencies": {}
 }
