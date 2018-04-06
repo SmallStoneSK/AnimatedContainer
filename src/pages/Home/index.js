@@ -13,6 +13,7 @@ export class Home extends PureComponent {
     super(props);
     this.onPressDemo1 = this.onPressDemo1.bind(this);
     this.onPressDemo2 = this.onPressDemo2.bind(this);
+    this.onPressDemo3 = this.onPressDemo3.bind(this);
   }
 
   _onPressDemo(pageName) {
@@ -28,11 +29,16 @@ export class Home extends PureComponent {
     this._onPressDemo('Demo2');
   }
 
+  onPressDemo3() {
+    this._onPressDemo('Demo3');
+  }
+
   render() {
     return (
       <View style={styles.container}>
         <Button text={'Demo1'} onPress={this.onPressDemo1}/>
         <Button text={'Demo2'} style={styles.demo2} onPress={this.onPressDemo2}/>
+        <Button text={'Demo3'} style={styles.demo2} onPress={this.onPressDemo3}/>
       </View>
     );
   }

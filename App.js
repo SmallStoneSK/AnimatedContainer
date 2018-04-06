@@ -1,6 +1,7 @@
 import {Home} from "./src/pages/Home/index";
 import {Demo1} from "./src/pages/Demo1/index";
 import {Demo2} from "./src/pages/Demo2/index";
+import {Demo3} from "./src/pages/Demo3/index";
 import {StackNavigator} from 'react-navigation';
 
 const App = StackNavigator({
@@ -20,6 +21,12 @@ const App = StackNavigator({
     screen: Demo2,
     navigationOptions: {
       headerTitle: 'Demo2'
+    }
+  },
+  Demo3: {
+    screen: Demo3,
+    navigationOptions: {
+      headerTitle: 'Demo3'
     }
   }
 });
