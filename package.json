@@ -1,6 +1,6 @@
 {
   "name": "react-native-animated-container",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A container component for creating PPT-like animations in react-native",
   "main": "index.js",
   "directories": {

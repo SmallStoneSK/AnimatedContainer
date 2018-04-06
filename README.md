@@ -2,7 +2,11 @@
 A container component for creating PPT-like animations in react-native
 
 ## Introduction
-In RN, Animated provides the ability to create animations. However, when we need to create some complex animations just like in PPT, it is rather hard for us. Fortunately, you can use AnimatedContainer to solve this problem.
+In RN, Animated provides the ability to create animations. However, when we need to create some complex animations just like in PPT, it is rather hard for us. Fortunately, you can use AnimatedContainer to solve this problem. For example:
+
+<div align="center">
+    <img src="http://oo819l870.bkt.clouddn.com/wocai-demo.gif"/>
+</div>
 
 ## How to use
 
